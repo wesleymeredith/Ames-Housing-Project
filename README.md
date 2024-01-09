@@ -1,14 +1,36 @@
-# Usage
-To clean data, run cleanData.py
-Once with the test.csv by replacing the internal variable in the file
-Once with the train.csv by replacing the internal variable in the file
+# Ames Housing Project
 
-To feature engineer the data, run FeatureE.py
-Once with the test.csv by replacing the internal variable in the file
-Once with the train.csv by replacing the internal variable in the file
+The Ames Housing Project employs advanced machine learning techniques, including XGBoost, Artificial Neural Network (ANN), Random Forest, and Decision Tree algorithms, to predict housing prices. This project provides a comprehensive set of tools to clean and analyze housing data, making it an invaluable resource for real estate professionals and data enthusiasts alike.
 
-Dependencies:
+## Usage
 
-Sklearn, MatPlotlib, GraphVIZ, pandas, numpy
+### Data Cleaning
+To clean the data, use the `cleanData.py` script. Run it twice, once with `test.csv` and once with `train.csv`. Replace the internal variable in the file accordingly.
 
-train4.csv and test4.csv are two files that have the original data transformed and cleaned, use these by default when training any of the data
+```bash
+python cleanData.py --input_file test.csv
+python cleanData.py --input_file train.csv
+```
+
+## Feature Engineering
+To perform feature engineering on the data, utilize the FeatureE.py script. Run it twice, once with test.csv and once with train.csv. Replace the internal variable in the file accordingly.
+```bash
+python FeatureE.py --input_file test.csv
+python FeatureE.py --input_file train.csv
+```
+
+## Dependencies
+Ensure you have the following dependencies installed:
+- Sklearn
+- Matplotlib
+- GraphVIZ
+- Pandas
+- NumPy
+
+## Data Files
+Use train4.csv and test4.csv for training, as these files contain the original data transformed and cleaned.
+
+
+## Source
+The dataset is from the [House Prices: Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) Kaggle competition.
+
