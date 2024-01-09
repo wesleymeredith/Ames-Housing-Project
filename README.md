@@ -4,6 +4,14 @@ The Ames Housing Project employs advanced machine learning techniques, including
 
 ## Usage
 
+## Dependencies
+Ensure you have the following dependencies installed:
+- Sklearn
+- Matplotlib
+- GraphVIZ
+- Pandas
+- NumPy
+  
 ### Data Cleaning
 To clean the data, use the `cleanData.py` script. Run it twice, once with `test.csv` and once with `train.csv`. Replace the internal variable in the file accordingly.
 
@@ -19,13 +27,6 @@ python FeatureE.py --input_file test.csv
 python FeatureE.py --input_file train.csv
 ```
 
-## Dependencies
-Ensure you have the following dependencies installed:
-- Sklearn
-- Matplotlib
-- GraphVIZ
-- Pandas
-- NumPy
 
 ## Data Files
 Use train4.csv and test4.csv for training, as these files contain the original data transformed and cleaned.
