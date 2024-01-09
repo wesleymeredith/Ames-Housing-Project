@@ -1,6 +1,7 @@
 # Ames Housing Project
 
-The Ames Housing Project employs advanced machine learning techniques, including XGBoost, Artificial Neural Network (ANN), Random Forest, and Decision Tree algorithms, to predict housing prices. This project provides a comprehensive set of tools to clean and analyze housing data, making it a good resource for real estate professionals or data enthusiasts.
+The Ames Housing Project employs advanced machine learning techniques, including XGBoost, Artificial Neural Network (ANN), Random Forest, and Decision Tree algorithms, to predict housing prices. This project provides a comprehensive set of tools to clean and analyze housing data, making it a good resource for real estate professionals or data enthusiasts. The dataset is from the [House Prices: Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) Kaggle competition.
+
 
 
 ## Dependencies
@@ -29,8 +30,3 @@ python FeatureE.py --input_file train.csv
 
 ## Data Files
 Use train4.csv and test4.csv for training, as these files contain the original data transformed and cleaned.
-
-
-## Source
-The dataset is from the [House Prices: Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) Kaggle competition.
-
