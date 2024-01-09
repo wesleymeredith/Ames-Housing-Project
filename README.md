@@ -12,7 +12,7 @@ Ensure you have the following dependencies installed:
 - Pandas
 - NumPy
   
-### Data Cleaning
+## Data Cleaning
 To clean the data, use the `cleanData.py` script. Run it twice, once with `test.csv` and once with `train.csv`. Replace the internal variable in the file accordingly.
 
 ```bash
