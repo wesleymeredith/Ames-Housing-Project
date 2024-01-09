@@ -1,6 +1,6 @@
 # Ames Housing Project
 
-The Ames Housing Project employs advanced machine learning techniques, including XGBoost, Artificial Neural Network (ANN), Random Forest, and Decision Tree algorithms, to predict housing prices. This project provides a comprehensive set of tools to clean and analyze housing data, making it an invaluable resource for real estate professionals and data enthusiasts alike.
+The Ames Housing Project employs advanced machine learning techniques, including XGBoost, Artificial Neural Network (ANN), Random Forest, and Decision Tree algorithms, to predict housing prices. This project provides a comprehensive set of tools to clean and analyze housing data, making it a good resource for real estate professionals or data enthusiasts.
 
 ## Usage
 
