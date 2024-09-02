@@ -1,4 +1,4 @@
-## If you want to see the results of this project, see the pdfs in results! :)
+## If you want to see the results of this project, see the pdfs in the results folder! :)
 
 # Ames Housing Project
 
